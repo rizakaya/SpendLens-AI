@@ -1,0 +1,24 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: src/SpendLens.Api/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      AI__BaseUrl: http://ai-service:8081
+      Storage__DataDirectory: /app/data
+    volumes:
+      - spendlens_data:/app/data
+    depends_on:
+      - ai-service
+
+  ai-service:
+    build:
+      context: ./ai
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+
+volumes:
+  spendlens_data:

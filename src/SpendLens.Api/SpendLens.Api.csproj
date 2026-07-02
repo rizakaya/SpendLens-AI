@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\\SpendLens.Application\\SpendLens.Application.csproj" />
+    <ProjectReference Include="..\\SpendLens.Infrastructure\\SpendLens.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

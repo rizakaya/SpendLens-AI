@@ -1,0 +1,43 @@
+<Solution>
+  <Folder Name="/ai/">
+    <File Path="ai/skills/project-analyst/SKILL.md" />
+    <File Path="ai/skills/project-analyst/agents/openai.yaml" />
+    <File Path="ai/skills/project-analyst/references/team-protocol.md" />
+    <File Path="ai/skills/project-developer/SKILL.md" />
+    <File Path="ai/skills/project-developer/agents/openai.yaml" />
+    <File Path="ai/skills/project-developer/references/team-protocol.md" />
+    <File Path="ai/skills/project-lead/SKILL.md" />
+    <File Path="ai/skills/project-lead/agents/openai.yaml" />
+    <File Path="ai/skills/project-lead/references/team-protocol.md" />
+    <File Path="ai/skills/project-tester/SKILL.md" />
+    <File Path="ai/skills/project-tester/agents/openai.yaml" />
+    <File Path="ai/skills/project-tester/references/team-protocol.md" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/SpendLens_AI_Proje_Kapsam_Dokumani.md" />
+    <File Path="docs/SpendLens_AI_Teknoloji_Dokumani.md" />
+    <File Path="docs/ai-team/README.md" />
+    <File Path="docs/ai-team/backlog.md" />
+    <File Path="docs/ai-team/current-state.md" />
+    <File Path="docs/ai-team/requirements-mvp.md" />
+    <File Path="docs/ai-team/decisions/2026-07-02-ai-team-memory.md" />
+    <File Path="docs/ai-team/handoffs/2026-07-02-team-setup.md" />
+    <File Path="docs/ai-team/templates/decision-template.md" />
+    <File Path="docs/ai-team/templates/handoff-template.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/SpendLens.Api/SpendLens.Api.csproj" />
+    <Project Path="src/SpendLens.Application/SpendLens.Application.csproj" />
+    <Project Path="src/SpendLens.Domain/SpendLens.Domain.csproj" />
+    <Project Path="src/SpendLens.Infrastructure/SpendLens.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SpendLens.UnitTests/SpendLens.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+    <File Path="SpendLens-AI.slnx" />
+    <File Path="TextFile1.txt" />
+  </Folder>
+</Solution>
