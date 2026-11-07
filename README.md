@@ -2,6 +2,10 @@
 
 SpendLens AI is a lightweight MVP that turns bank statement CSV data into categorized transactions, subscription candidates, monthly summaries, and AI-style spending narratives.
 
+## Project image
+
+![SpendLens AI project overview](docs/rizakaya-ai-spend-lens.jpg)
+
 ## What Is Included
 
 - .NET 8 API with layered application/domain/infrastructure structure
